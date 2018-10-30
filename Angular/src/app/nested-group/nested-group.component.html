@@ -1,0 +1,40 @@
+<html>
+  <body>
+<div formGroupName="address">
+
+    <label>
+        First Name:
+        <input type="text" formControlName="firstName">
+      </label>
+    <br><br>
+      <label>
+        Last Name:
+        <input type="text" formControlName="lastName">
+      </label>
+    <br><br>
+  <h3>Address</h3><br><br>
+  <label>
+    Street:
+    <input type="text" formControlName="street">
+  </label>
+<br><br>
+  <label>
+    City:
+    <input type="text" formControlName="city">
+  </label>
+  <br><br>
+  <label>
+    State:
+    <input type="text" formControlName="state">
+  </label>
+<br><br>
+  <label>
+    Zip Code:
+    <input type="text" formControlName="zip">
+  </label>
+</div>
+<p>
+    <button (click)="updateProfile()">Update Profile</button>
+  </p>
+  </body>
+  </html>
